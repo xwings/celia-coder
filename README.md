@@ -2,6 +2,11 @@
 
 A skill that teaches AI coding agents to write and review code for long-term maintainability. One set of design principles governs both — the standards applied when reviewing are the same standards followed when writing.
 
+## Most of the code from
+```
+https://github.com/liangjs/code-quality
+```
+
 ## How It Works
 
 An AI agent loads `SKILL.md`, which instructs it to load 8 design principle files from `principles/`. The argument determines the mode:
